@@ -1,16 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './Pages/Index';
+import PetDocLanding from './Pages/PetDocLanding';
 
 
 const App = () => {
   return (
     <Router>
-      <Layout>
+      
 <Routes >
-<Route path="/handler" element={<Index />} />
+<Route path="/handler" element={<PetDocLanding />} />
 </Routes>
-      </Layout>
+      
     </Router>
   );
 };
